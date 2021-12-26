@@ -1,0 +1,25 @@
+{
+    "name": "WebLab1",
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-metarhia": "^7.0.1",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.1.0",
+        "eslint-plugin-sonarjs": "^0.10.0",
+        "husky": "^7.0.2",
+        "prettier": "2.4.1",
+        "stylelint": "^13.13.1",
+        "stylelint-config-standard": "^22.0.0"
+    },
+    "scripts": {
+        "prepare": "husky install",
+        "jslint": "eslint \"**/*.js\" --ignore-path .gitignore",
+        "jslint:fix": "eslint --fix \"js/**/*.js\" --ignore-path .gitignore",
+        "format": "prettier --check . --ignore-path .gitignore",
+        "format:fix": "prettier --write . --ignore-path .gitignore",
+        "stylelint": "stylelint \"**/*.css\" --ignore-path .gitignore",
+        "stylelint:fix": "stylelint \"**/*.css\" --fix --ignore-path .gitignore"
+    }
+}

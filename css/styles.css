@@ -1,0 +1,109 @@
+:root {
+    --green-side: #556137;
+    --green-main: #cdcd8e;
+    --green-line: #a6b59e;
+    --green-hf: #7c9461;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows:
+        minmax(max-content, 25%)
+        10%
+        minmax(max-content, 35%)
+        5%
+        minmax(max-content, 25%);
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--green-hf);
+    grid-area: 1 / 1 / 1 / 4;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+}
+
+header h1 {
+    margin-right: auto;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--green-side);
+    grid-area: 2 / 1 / 5 / 1;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+    background: var(--green-line);
+    grid-area: 2 / 2 / 2 / 4;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--green-main);
+    grid-area: 3 / 2 / 3 / 2;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--green-line);
+    grid-area: 4 / 2 / 4 / 2;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--green-side);
+    grid-area: 3 / 3 / 5 / 3;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--green-hf);
+    grid-area: 5 / 1 / 5 / 4;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+}
+
+footer h1 {
+    margin-right: auto;
+}
+
+.main-image {
+    width: auto;
+    height: 70%;
+    margin: auto;
+}
+
+.main-map {
+    margin: auto;
+    width: 70%;
+    height: auto;
+}
