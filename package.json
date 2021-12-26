@@ -14,7 +14,7 @@
         "stylelint-config-standard": "^22.0.0"
     },
     "scripts": {
-        "prepare": "husky install",
+           "prepare": "husky install",
         "jslint": "eslint \"**/*.js\" --ignore-path .gitignore",
         "jslint:fix": "eslint --fix \"js/**/*.js\" --ignore-path .gitignore",
         "format": "prettier --check . --ignore-path .gitignore",
