@@ -233,7 +233,7 @@ main {
     margin: 10px;
 }
 
-.slide1:checked ~ .slider-visible .slider-cta {
+.slide1:checked ~ .slider-visible .slider {
     transform: translateX(0);
 }
 
@@ -249,7 +249,7 @@ main {
     z-index: 1;
 }
 
-.slide2:checked ~ .slider-visible .slider-cta {
+.slide2:checked ~ .slider-visible .slider {
     transform: translateX(-25%);
 }
 
@@ -265,7 +265,7 @@ main {
     z-index: 1;
 }
 
-.slide3:checked ~ .slider-visible .slider-cta {
+.slide3:checked ~ .slider-visible .slider {
     transform: translateX(-50%);
 }
 
@@ -281,7 +281,7 @@ main {
     z-index: 1;
 }
 
-.slide4:checked ~ .slider-visible .slider-cta {
+.slide4:checked ~ .slider-visible .slider {
     transform: translateX(-75%);
 }
 
