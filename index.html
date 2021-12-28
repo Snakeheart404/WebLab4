@@ -9,8 +9,8 @@
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Frogs</title>
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="/css/normalize.css" />
+        <link rel="stylesheet" href="/css/styles.css" />
         <base target="_parent" />
     </head>
 
@@ -26,22 +26,13 @@
                     <nav>
                         <ul>
                             <li>
-                                <a
-                                    href="https://ru.wikipedia.org/wiki/Злая_щитоспинка"
-                                    >Budgett's frog</a
-                                >
+                                <a href=".">Budgett's frog</a>
                             </li>
                             <li>
-                                <a
-                                    href="https://en.wikipedia.org/wiki/Ceratophrys"
-                                    >Pacman frog</a
-                                >
+                                <a href=".">Pacman frog</a>
                             </li>
                             <li>
-                                <a
-                                    href="https://ru.wikipedia.org/wiki/Южноафриканский_узкорот"
-                                    >Bushveld rain frog</a
-                                >
+                                <a href=".">Bushveld rain frog</a>
                             </li>
                         </ul>
                     </nav>
@@ -49,54 +40,76 @@
             </div>
         </div>
         <main>
-            <input
-                type="radio"
-                name="slider"
-                id="slide1_radio"
-                class="slide1_radio"
-                checked
-            />
-            <input
-                type="radio"
-                name="slider"
-                id="slide2_radio"
-                class="slide2_radio"
-            />
-            <input
-                type="radio"
-                name="slider"
-                id="slide3_radio"
-                class="slide3_radio"
-            />
-            <div class="slides">
-                <div class="inner">
-                    <div class="slide slide1"></div>
-                    <div class="slide slide2"></div>
-                    <div class="slide slide3"></div>
+            <h1 class="slider-cta">Some frogs!</h1>
+            <div class="slider-outer">
+                <input
+                    id="slide1"
+                    class="slide1"
+                    name="slide-selector"
+                    type="radio"
+                    checked
+                />
+                <input
+                    id="slide2"
+                    class="slide2"
+                    name="slide-selector"
+                    type="radio"
+                />
+                <input
+                    id="slide3"
+                    class="slide3"
+                    name="slide-selector"
+                    type="radio"
+                />
+                <input
+                    id="slide4"
+                    class="slide4"
+                    name="slide-selector"
+                    type="radio"
+                />
+                <div class="label-bars-container">
+                    <label class="label-bar" for="slide1"></label>
+                    <label class="label-bar" for="slide2"></label>
+                    <label class="label-bar" for="slide3"></label>
+                    <label class="label-bar" for="slide4"></label>
+                </div>
+                <div class="btn btn-left">
+                    <label class="btn-label btn-label-left" for="slide1">
+                        &#5130;
+                    </label>
+                    <label class="btn-label btn-label-left" for="slide2">
+                        &#5130;
+                    </label>
+                    <label class="btn-label btn-label-left" for="slide3">
+                        &#5130;
+                    </label>
+                    <label class="btn-label btn-label-left" for="slide4">
+                        &#5130;
+                    </label>
+                </div>
+                <div class="btn btn-right">
+                    <label class="btn-label btn-label-right" for="slide1">
+                        &#5125;
+                    </label>
+                    <label class="btn-label btn-label-right" for="slide2">
+                        &#5125;
+                    </label>
+                    <label class="btn-label btn-label-right" for="slide3">
+                        &#5125;
+                    </label>
+                    <label class="btn-label btn-label-right" for="slide4">
+                        &#5125;
+                    </label>
+                </div>
+                <div class="slider-visible">
+                    <div class="slider">
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                    </div>
                 </div>
             </div>
-            <div class="control control-left">
-                <label for="slide1_radio"></label>
-                <label for="slide2_radio"></label>
-                <label for="slide3_radio"></label>
-            </div>
-            <div class="control control-right">
-                <label for="slide1_radio"></label>
-                <label for="slide2_radio"></label>
-                <label for="slide3_radio"></label>
-            </div>
-            <div class="bullets">
-                <label for="slide1_radio"></label>
-                <label for="slide2_radio"></label>
-                <label for="slide3_radio"></label>
-            </div>
         </main>
-
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
-            expedita r eprehenderit quo accusamus, ipsam odit minima sequi nisi
-            reiciendis, eum possimus exercitationem pariatur praesentium
-            temporibus aut nemo corrupti alias adipisci?
-        </p>
     </body>
 </html>
