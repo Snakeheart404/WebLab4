@@ -18,7 +18,7 @@ jobs:
             - name: Installing dependencies
               run: npm ci
             - name: Running Eslint
-              run: npm run eslint
+              run: npm run jslint
             - name: Running CSS lint
               run: npm run stylelint
             - name: Running Prettier
